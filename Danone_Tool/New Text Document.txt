@@ -1,0 +1,230 @@
+import csv
+
+
+a1 = ""
+a2 = ""
+a3 = ""
+a4 = ""
+f = open('LIST2.csv')
+rows = csv.reader(f)
+
+for row in rows:
+ r=list(row)
+ for r in row:
+  s1_row = row[0]
+  if "China" in s1_row:
+     a2 = "CH"
+  elif "Brazil" in s1_row:
+     a2 = "BR"
+  elif "South Korea" in s1_row:
+    a2 = "KR"
+  elif "Chile" in s1_row:
+    a2 = "CL"
+  elif "Chile" in s1_row:
+      a2 = "CL"
+  elif "United Arab Emirates" in s1_row:
+      a2 = "AE"
+  elif "Vietnam" in s1_row:
+      a2 = "VN"
+  elif "Albania" in s1_row:
+      a2 = "AL"
+  elif "Mexico" in s1_row:
+      a2 = "MX"
+  elif "Peru" in s1_row:
+      a2 = "PE"
+  elif "Algeria" in s1_row:
+      a2 = "DZ"
+  elif "South Africa" in s1_row:
+      a2 = "ZA"
+  elif "Taiwan" in s1_row:
+      a2 = "TW"
+  elif "United States" in s1_row:
+      a2 = "US"
+  elif "Japan" in s1_row:
+      a2 = "JP"
+  elif "Austria" in s1_row:
+      a2 = "AT"
+  elif "Hong Kong" in s1_row:
+      a2 = "HK"
+  elif "Iran" in s1_row:
+      a2 = "IR"
+  elif "Canada" in s1_row:
+      a2 = "CA"
+  elif "Singapore" in s1_row:
+      a2 = "SG"
+  elif "Philippines" in s1_row:
+      a2 = "PH"
+  elif "Thailand" in s1_row:
+      a2 = "TH"
+  elif "Indonesia" in s1_row:
+      a2 = "ID"
+  elif "Spain" in s1_row:
+      a2 = "ES"
+  elif "United Kingdom" in s1_row:
+      a2 = "GB"
+  elif "New Zealand" in s1_row:
+      a2 = "NZ"
+  elif "Australia" in s1_row:
+      a2 = "AU"
+  elif "Turkey" in s1_row:
+      a2 = "TR"
+  elif "Netherlands" in s1_row:
+      a2 = "NL"
+  elif "Malaysia" in s1_row:
+      a2 = "MY"
+  elif "Egypt" in s1_row:
+      a2 = "EG"
+  elif "Bangladesh" in s1_row:
+      a2 = "BD"
+  elif "Eritrea" in s1_row:
+      a2 = "ER"
+  elif "Israel" in s1_row:
+      a2 = "IL"
+  elif "Paraguay" in s1_row:
+      a2 = "PY"
+  elif "Nepal" in s1_row:
+      a2 = "NP"
+  elif "Slovenia" in s1_row:
+      a2 = "SI"
+  elif "Turkmenistan" in s1_row:
+      a2 = "TM"
+  elif "Azerbaijan" in s1_row:
+      a2 = "AZ"
+  elif "Afghanistan" in s1_row:
+      a2 = "AF"
+  elif "Uzbekistan" in s1_row:
+      a2 = "UZ"
+  elif "Iraq" in s1_row:
+      a2 = "IQ"
+  elif "Russia" in s1_row:
+      a2 = "RS"
+  elif "Oman" in s1_row:
+      a2 = "OM"
+  elif "Pakistan" in s1_row:
+      a2 = "PK"
+  elif "Italy" in s1_row:
+      a2 = "IT"
+  elif "North Korea" in s1_row:
+      a2 = "KP"
+  elif "Angola" in s1_row:
+      a2 = "AO"
+  elif "Ghana" in s1_row:
+      a2 = "GH"
+  elif "Saudi Arabia" in s1_row:
+      a2 = "SA"
+  elif "Kuwait" in s1_row:
+      a2 = "KU"
+  elif "Qatar" in s1_row:
+      a2 = "QA"
+  elif "India" in s1_row:
+      a2 = "IN"
+  elif "Germany" in s1_row:
+      a2 = "DE"
+  elif "Belgium" in s1_row:
+      a2 = "BE"
+  elif "Nigeria" in s1_row:
+      a2 = "NG"
+  elif "Portugal" in s1_row:
+      a2 = "PT"
+  elif "Greece" in s1_row:
+      a2 = "GR"
+  elif "Kenya" in s1_row:
+      a2 = "KE"
+  elif "Sri Lanka" in s1_row:
+      a2 = "LK"
+  elif "Timor" in s1_row:
+      a2 = "TL"
+  elif "Burma (Myanmar)" in s1_row:
+      a2 = "MM"
+  elif "Madagascar" in s1_row:
+      a2 = "MG"
+  elif "Tanzania" in s1_row:
+      a2 = "TZ"
+  elif "Poland" in s1_row:
+      a2 = "PL"
+  elif "Mozambique" in s1_row:
+      a2 = "MZ"
+  elif "Sweden" in s1_row:
+      a2 = "SE"
+  elif "EU15 (External Trade)" in s1_row:
+      a2 = "EU"
+  elif "Papua New Guinea" in s1_row:
+      a2 = "PG"
+  elif "Romania" in s1_row:
+      a2 = "RO"
+  elif "Finland" in s1_row:
+      a2 = "FI"
+  elif "Ukraine" in s1_row:
+      a2 = "UA"
+  elif "Bulgaria" in s1_row:
+      a2 = "BG"
+  elif "El Salvador" in s1_row:
+      a2 = "SV"
+  elif "Honduras" in s1_row:
+      a2 = "HN"
+  elif "Ecuador" in s1_row:
+      a2 = "EC"
+  elif "Fiji" in s1_row:
+      a2 = "FJ"
+  elif "Cyprus" in s1_row:
+      a2 = "CY"
+  elif "Ivory Coast" in s1_row:
+      a2 = "CI"
+  elif "Cambodia" in s1_row:
+      a2 = "KH"
+  elif "Cameroon" in s1_row:
+      a2 = "CM"
+  elif "Morocco" in s1_row:
+      a2 = "MO"
+  elif "Uruguay" in s1_row:
+      a2 = "UY"
+  elif "Georgia" in s1_row:
+      a2 = "GE"
+  elif "Tajikistan" in s1_row:
+      a2 = "TJ"
+  elif "Armenia" in s1_row:
+      a2 = "AM"
+  elif "Colombia" in s1_row:
+      a2 = "CO"
+  elif "France" in s1_row:
+      a2 = "FR"
+  elif "Somalia" in s1_row:
+      a2 = "SO"
+  elif "Kirghizia" in s1_row:
+      a2 = "KG"
+  elif "Maldive Islands" in s1_row:
+      a2 = "MV"
+  elif "Serbia and Montenegro" in s1_row:
+      a2 = "CS"
+  elif "Kazakhstan" in s1_row:
+      a2 = "KZ"
+  elif "Ethiopia" in s1_row:
+      a2 = "ET"
+  elif "Norway" in s1_row:
+      a2 = "NO"
+  elif "Switzerland" in s1_row:
+      a2 = "CH"
+  elif "All Others" in s1_row:
+      a2 = ""
+  elif "Total" in s1_row:
+      a2 = ""
+
+
+
+  if "HDPE" in s1_row:
+       a1 = "HDPE_TRADE"
+
+
+  else: pass
+  if "Nameplate" in s1_row[1]:
+       a4 = "NPC"
+  elif "EPS" in s1_row:
+       a4 = "&&&&"
+
+  else: pass
+  s2_row = row[2]
+  if "QUARTERLY" in row[2]:
+   a3 = "QUARTERLY"
+  elif "MONTHLY" in row[2]:
+    a3 = "QUARTERLY.FORECAST"
+ print("EU.CH.IHS." + a1 + "_" + a2 + "." + a3+".MONTHLY")
